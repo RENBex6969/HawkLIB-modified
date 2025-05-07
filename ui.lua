@@ -3,7 +3,7 @@
 local clonefunc; clonefunc = clonefunction(clonefunction)
 local cf, cf = clonefunc(cloneref)
 local GetService; GetService = function(ser)
-  return cf(ser)
+  return cf(game:GetService(ser))
 end
 
 local UserInputService = GetService("UserInputService")
