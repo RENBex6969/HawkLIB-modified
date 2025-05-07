@@ -1,6 +1,6 @@
 -- Image Function is firstly made by __spyro. After the ui libs with image function probably skidded this source
 
-local clonefunc; clonefunction = clonefunction(clonefunction)
+local clonefunc; clonefunc = clonefunction(clonefunction)
 local cf, cf = clonefunc(cloneref)
 local GetService; GetService = function(ser)
   return cf(ser)
